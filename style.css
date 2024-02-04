@@ -1,0 +1,123 @@
+body{
+    
+}
+.product-shelf{
+    position: absolute;
+    left: 40%;
+
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+
+}
+#p1.product{
+    position: relative;
+    left: 50%;
+    top: 20vh;
+    width: 31vw;
+    height:10vh;
+    transform: translateX(-50%);
+    border: 1px solid none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+#p2.product{
+    position: relative;
+    left: 50%;
+    top: 20vh;
+    width: 31vw;
+    height:10vh;
+    transform: translateX(-50%);
+    border: 1px solid none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+#p1.product-id{
+    position: absolute;
+    left: 0;
+    border: 1px solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+#p2.product-id{
+    position: absolute;
+    left: 0;
+    border: 1px solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#rating-title{
+    position: absolute;
+    top: 0;
+    border: 1px solid none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30vw;
+    left: 50%;
+    
+    transform: translateX(-50%);
+}
+.rating-board{
+    position: absolute;
+    bottom: 0;
+    border: 1px solid none;
+    display: flex;
+    list-style:none;
+}
+#rating-star-1.bi.bi-star{
+    border: 1px solid none;
+    font-size: 5vh;
+    text-align: center;
+    width: 6vh;
+    cursor: pointer;
+}
+#rating-star-1.bi.bi-star-fill{
+    border: 1px solid none;
+    font-size: 5vh;
+    transform: scale(1);
+    text-align: center;
+    width: 6vh;
+    color: rgba(128, 128, 128, 0.582);
+    cursor: pointer;
+}
+#rating-star-1.bi.bi-star-fill.rated{
+    color: black;
+}
+#rating-star-2.bi.bi-star{
+    border: 1px solid none;
+    font-size: 5vh;
+    text-align: center;
+    width: 6vh;
+    cursor: pointer;
+}
+#rating-star-2.bi.bi-star-fill{
+    border: 1px solid none;
+    font-size: 5vh;
+    transform: scale(1);
+    text-align: center;
+    width: 6vh;
+    color: rgba(128, 128, 128, 0.582);
+    cursor: pointer;
+}
+#rating-star-2.bi.bi-star-fill.rated{
+    color: black;
+}
+
+
